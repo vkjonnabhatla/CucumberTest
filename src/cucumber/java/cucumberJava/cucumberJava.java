@@ -19,7 +19,7 @@ public class cucumberJava {
       //driver = new FirefoxDriver(); 
       driver = new ChromeDriver();
    } 
-	
+   //Added comments	
    @When("^I open Facebook website$") 
    public void goToFacebook() { 
       driver.navigate().to("https://www.facebook.com/"); 
